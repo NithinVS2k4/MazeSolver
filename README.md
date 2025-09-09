@@ -82,3 +82,38 @@ The following can be inferred from the training curve:
 <img src = "assets/gifs/Agent_Playing.gif" alt = "Agent Playing" width = "400"/>
 
 *NOTE: Some clips end before the agent reaches the goal. This happens when the agent collides with the wall and dies.*
+
+
+## Build Instructions
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/NithinVS2k4/MazeSolver.git
+
+cd MazeSolver
+```
+
+2. (Optional but recommended) Create a virtual environment
+
+Using venv (Python 3.8+):
+
+```bash
+python3 -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Make sure your Python version is 3.8 or higher.
+
+From here, you can run the notebooks in the given serial order and everything should function well. If not, let me know.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details."
