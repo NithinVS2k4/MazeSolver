@@ -72,4 +72,13 @@ The following can be inferred from the training curve:
   - This is evident from the decrease in distance penalty (as its ending the episode quicker) and increase in goal reward
     
 ## Results
-<img src="assets/images/EvaluationResults.png" alt="Eval Results" height="200" width= "400"/> 
+
+**Performance Report**:
+
+<img src="assets/images/EvaluationResult.png" alt="Eval Results" width= "800"/> 
+
+**Agent Solving Mazes**:
+
+<img src = "assets/gifs/Agent_Playing.gif" alt = "Agent Playing" width = "400"/>
+
+*NOTE: Some clips end before the agent reaches the goal. This happens when the agent collides with the wall and dies.*
