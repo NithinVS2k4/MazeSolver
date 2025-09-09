@@ -77,6 +77,19 @@ The following can be inferred from the training curve:
 
 <img src="assets/images/EvaluationResult.png" alt="Eval Results" width= "800"/> 
 
+
+**CNN Outputs**:
+
+<img src="assets/images/CNNOutputs.png" alt="CNN Output" width= "800"/> 
+
+One can observe each channel from the second convolutional layer performing specific roles:
+
+  - Some channels in the second layer are for detecting the walls (eg: Channels 11, 14, 15, etc.)
+  - A few channels detect the agent and the goal positions (eg: Channels 8, 9 etc.)
+  - Some do a mix of both wall and agent-goal detection (eg: Channel 13, 0 etc.)
+
+This indicates that the convolutional layers are able to infer high-level features from the given image.
+
 **Agent Solving Mazes**:
 
 <img src = "assets/gifs/Agent_Playing.gif" alt = "Agent Playing" width = "400"/>
